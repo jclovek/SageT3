@@ -20,6 +20,11 @@
       "static/chunks/main.js",
       "static/chunks/pages/index.js"
     ],
+    "/Shop": [
+      "static/chunks/webpack.js",
+      "static/chunks/main.js",
+      "static/chunks/pages/Shop.js"
+    ],
     "/WikiVendor": [
       "static/chunks/webpack.js",
       "static/chunks/main.js",
