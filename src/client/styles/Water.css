@@ -1,0 +1,48 @@
+.water-image-container {
+    width: 1920px;
+    height: 1080px;
+    border: 1px solid;
+    background-image: url('/images/Water-BG.jpg');
+    background-size: 100% 100%;
+    position: relative;
+}
+
+.clouds {
+    position: absolute;
+    top: 366px; 
+    right: 300px; 
+    cursor: pointer; 
+}
+
+.land {
+    position: absolute;
+    top: 737px; 
+    right: 103px; 
+    cursor: pointer; 
+}
+
+.underground {
+    position: absolute;
+    top: 956px; 
+    right: 420px; 
+    cursor: pointer; 
+}
+
+.ocean {
+    position: absolute;
+    top: 935px; 
+    right: 1615px; 
+    cursor: pointer; 
+}
+
+.volcano {
+    position: absolute;
+    top: 525px; 
+    right: 1742px; 
+    cursor: pointer; 
+}
+
+
+
+
+

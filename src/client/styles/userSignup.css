@@ -1,0 +1,189 @@
+.modal-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1000;
+}
+
+.modal-content {
+    display: flex;
+    background-color: #fff;
+    border-radius: 8px;
+    width: 1000px;
+    height: 800px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    position: relative;
+    overflow: hidden;
+    color: black;
+}
+
+.left-section {
+    background-color: #F5F2EF;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.left-section h2 {
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+
+.left-section h2 {
+    font-size: 1.8em;
+    margin-bottom: 20px;
+}
+
+.left-section p {
+    font-size: 1em;
+}
+
+.login-link {
+    color: #4c4e50;
+    text-decoration: underline;
+}
+
+.login-link:hover {
+    text-decoration: underline;
+}
+
+.rotating {
+    position: relative;
+    bottom:-195px
+}
+
+.rotating img {
+    width: 290px;
+    height: 325px;
+    object-fit: cover;
+}
+
+.right-section {
+    flex: 2;
+    padding: 40px;
+}
+
+.tab-header {
+    display:flex;
+    justify-content: space-around;
+    margin-bottom: 20px;
+    margin-top: 3vw;
+}
+
+.tab-header span {
+    font-size: 1em;
+    padding: 10px;
+    color: #b3b3b3;
+}
+
+.tab-header span.active {
+    color: #111111;
+    font-weight: bold;
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.form-group input,
+.form-group select {
+    width: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+    margin-top: 5px;
+}
+
+.avatar-section {
+    display: flex;
+    align-items: center;
+    margin-bottom: 40px;
+}
+
+.avatar-select {
+    width: 400px;
+}
+
+#avatar {
+    width: 20vw;
+}
+
+.avatar-image {
+    border-radius: 50%;
+    margin-right: 20px;
+    width: 210px;
+    height: 210px;
+}
+
+.button-group {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+}
+
+.save-button,
+.next-button,
+.previous-button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 15px 30px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.save-button:hover {
+    background-color: #45a049;
+}
+
+.next-button {
+    background-color: #008CBA;
+}
+
+.next-button:hover {
+    background-color: #005f7f;
+}
+
+.previous-button {
+    background-color: #ff0000;
+    margin-left: 10vw;
+}
+
+.previous-button:hover {
+    background-color: #991313;
+}
+
+.close-button {
+    position: absolute;
+    top: 10px;
+    right: 20px;
+    background: none;
+    border: none;
+    font-size: 1.5em;
+    cursor: pointer;
+    color : #007bff;
+}
+
+.close-button:hover {
+    background-color: transparent;
+}
+
+.SignUpModal input[type="text"],
+.SignUpModal input[type="password"],
+.SignUpModal select {
+    color: #333; 
+    background-color:#E5EEE9 ; 
+    border: 1px solid #dcdcdc; 
+}

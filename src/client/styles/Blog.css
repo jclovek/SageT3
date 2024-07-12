@@ -1,0 +1,158 @@
+@font-face {
+    font-family: Barcelony;
+    src: url('/fonts/LucidaGrande.woff');
+}
+
+.blog-title {
+    padding: 20px;
+    background-color: #414C6A;
+    text-align: center;
+    margin: 0 auto;
+
+}
+
+.blog-title h1 {
+    font-family: 'Georgia', sans-serif;
+    font-size: 22px;
+    color: #F5F5F5;
+}
+
+.blog-icons {
+    display: flex;
+    justify-content: center; 
+    gap: 10px; 
+}
+  
+.blog-filter {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+  
+.icon-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.blog-category {
+    font-family: 'Georgia', sans-serif;
+    text-align: center; 
+}
+
+.blog-content-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.content-row {
+    display: flex;
+    align-items: center;
+    background-color: #E5EEE9;
+    /* text-align: center; */
+    margin-bottom: 20px; 
+}
+
+.row-image {
+    width: 250px;
+    height: auto; 
+    margin-right: 20px; 
+    border-radius: 5px; 
+}
+
+.row-4 {
+    padding: 20px;
+    width: 250px;
+    height: auto; 
+    margin-right: 20px; 
+    border-radius: 5px; 
+    background-color: #414C6A;
+
+}
+
+.row-4 p {
+    margin-bottom: 10px;
+}
+
+.row-4 button {
+    width: 200px;
+    text-align: center;
+    background-color: #619C9A;
+}
+
+.row-text {
+    font-family: Barcelony;
+    flex: 1; 
+}
+
+.row-text h1 {
+    font-size: 22px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    color: #414C6A;
+    font-weight: bold;
+}
+
+.row-text p {
+    color: #414C6A;
+}
+
+.row-text a {
+    text-decoration: underline;
+}
+
+.row-container {
+    width: calc(75% - 20px); 
+    padding: 50px;
+}
+
+.blog-share {
+    width: 150px;
+    display: flex;
+    background-color: #619C9A;
+    padding: 5px;
+    justify-content: center; 
+    gap: 10px;
+    margin-top: 20px;
+}
+
+.blog-share p{
+    color: #F5F5F5;
+}
+
+.indented-list {
+    margin-left: 20px; /* Adjust the indentation as needed */
+}
+
+.column-container {
+    width: calc(25% - 20px); 
+    margin-top: 50px;
+    margin-right: 50px;
+    padding-left: 20px;
+    background-color: #E5EEE9;
+    /* padding: 50px; */
+}
+
+.column-content {
+    padding: 10px;
+    font-family: Barcelony;
+    color: #414C6A;
+}
+
+.column-content h1 {
+    font-size: 22px;
+    padding: 5px;
+    font-weight: bold;
+}
+
+#blog-bars {
+    border: 1px #F5F5F5 solid;
+    background-color: #F5F5F5;
+    width: 200px;
+    height: 35px;
+    color:black;
+    margin-bottom: 10px;
+}

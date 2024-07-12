@@ -1,0 +1,22 @@
+#page-title {
+    font-weight: bold;
+    font-size: xx-large;
+}
+
+#search-bar {
+    border: 1px #F5F5F5 solid;
+    background-color: #D9CE5E;
+    width: 200px;
+    height: 35px;
+}
+
+.page-header {
+    height: 8vh;
+    width: 100vw;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #D9CE5E;
+    color: #F5F5F5;
+    padding: 0 1em
+}

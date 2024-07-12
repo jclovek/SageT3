@@ -1,0 +1,141 @@
+.act {
+    display: block;
+}
+
+.act-background {
+    min-height: 600px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 40px;
+    background-image: url('/images/actNowMain.jpg');
+    background-size: cover;
+    background-position: center;
+    overflow: hidden;
+}
+
+.background-text {
+    text-align: center;
+    margin-top: 4vw;
+    margin-left: 48vw;
+}
+
+.background-text h2 {
+    font-size: 100px;
+    color: #414C6A;
+    font-weight: bold;
+}
+
+.background-text p {
+    font-size: 95px;
+    color: #414C6A;
+}
+
+.background-text button {
+    width: 10vw;
+    margin-top: 20px;
+    padding: 10px 20px;
+    font-size: 20px;
+    background-color: #6caaa4;
+    border: none;
+    border-radius: 5px;
+    color: #ffffff;
+}
+
+.act-paragraph {
+    align-items: center;
+    text-align: center;
+    background-color: #E5EFE9;
+    padding: 3vw;
+}
+
+.act-paragraph h3 {
+    font-size: 46px;
+    color: #414C6A;
+    max-width: 77%;
+    margin: auto;
+    font-weight: bold;
+}
+
+.act-paragraph p {
+    font-size: 30px;
+    color: #414C6A;
+    max-width: 75%;
+    margin: auto;
+    margin-top: 1vw
+}
+
+.speakUp {
+    align-items: center;
+    text-align: center;
+    padding: 3vw;
+
+}
+
+.headers {
+    align-items: center;
+    text-align: center;
+}
+
+.headerOne {
+    font-size: 50px;
+    color: #414C6A;
+}
+
+.speak-description {
+    font-size: 30px;
+    color: #414C6A;
+    max-width: 100%;
+    margin-top: 1vw;
+
+}
+
+.card-container {
+    display: grid;
+    grid-template-columns: repeat(2, 0fr);
+    grid-gap: 20px;
+    justify-content: center;
+    padding: 20px;
+}
+
+.card {
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    overflow: hidden;
+    width: 600px;
+    margin: 10px;
+    height: auto;
+    text-align: center;
+    background-color: #E5EFE9;
+}
+
+.card img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+}
+
+.card-title {
+    font-size: 1.5em;
+    background-color: #6caaa4;
+    color: #ffffff;
+    margin-top: 10px 0;
+    padding: 10px 0;
+}
+
+.card-description {
+    font-size: 1.4em;
+    background-color: #E5EFE9;
+    color: #414C6A;
+    padding: 10px 0;
+    text-align: center;
+    margin: auto;
+    width: 80%;
+    height: 105px;
+}
+
+.card-link {
+    margin: 10px 0;
+    font-size: 1.7em;
+    color: #00885b;
+    text-decoration: underline;
+}

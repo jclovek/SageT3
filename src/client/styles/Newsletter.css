@@ -1,0 +1,39 @@
+#title-line {
+    padding-right: 1em;
+    font-weight: bolder;
+    font-size: xx-large;
+}
+
+#name-input {
+    margin-right: 1em;
+}
+
+.newsletter-container {
+    width: 100vw;
+    background-color: #D9CE5E;
+    align-items: center;
+}
+
+.newsletter-container, .newsletter-content {
+    height: 25vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.newsletter-title {
+    display: flex;
+    align-items: center;
+    padding: 1em;
+    color: #4A5164;
+}
+
+.newsletter-form {
+    display: flex;
+    padding-bottom: 1em;
+}
+
+.newsletter-input {
+    width: 35vw;
+    padding: 0.5em 1em;
+}

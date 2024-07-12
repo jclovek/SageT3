@@ -1,0 +1,46 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html {
+    overflow: scroll;
+    overflow-x: hidden;
+    font-family: "LucidaGrande"
+}
+
+::-webkit-scrollbar {
+    width: 0;  /* Remove scrollbar space */
+    background: transparent;  /* Optional: just make scrollbar invisible */
+}
+
+/* Optional: show position indicator in red */
+::-webkit-scrollbar-thumb {
+    background: #FF0000;
+}
+
+@font-face {
+    font-family: "Barcelony-Regular";
+    src: url("/fonts/Barcelony-Regular.woff") format('woff2');
+}
+
+@font-face {
+    font-family: "LucidaGrande";
+    src: url("/fonts/LucidaGrande.woff") format('woff2');
+}
+
+#Barcelony-Font {
+    font-family: "Barcelony-Regular";
+}
+
+#xxlarge {
+    font-size: xx-large;
+}
+
+@font-face {
+    font-family: "AbrilFatface-Regular";
+    src: url("/fonts/AbrilFatface-Regular.tff") format('truetype');
+}
+
+#AbrilFatface-Regular-Font {
+    font-family: "AbrilFatface-Regular";
+}

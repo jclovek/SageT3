@@ -1,0 +1,8 @@
+.about-diagram{
+    display: flex;
+    justify-content: center;
+    padding-left: 2em; 
+    padding-right: 2em; 
+    background-color: #414C6A;
+
+}
