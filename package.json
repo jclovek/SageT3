@@ -11,8 +11,7 @@
     "db:studio": "prisma studio",
     "dev": "next dev",
     "lint": "next lint",
-    "start": "next start",
-    // "postinstall": "prisma generate"
+    "start": "next start"
   },
   "dependencies": {
     "@prisma/client": "^5.14.0",
